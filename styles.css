@@ -1,0 +1,20 @@
+.box {
+    display: inline-flex;
+    flex-direction: column;
+    border: thin solid black;
+    justify-content: center;
+}
+div.container {
+    display: flex;
+}
+
+.square {
+    display: flex;
+    width: 5px;
+    border: solid thin black;
+    aspect-ratio: 1/1;
+}
+
+.hovered {
+    background-color: blue;
+}
