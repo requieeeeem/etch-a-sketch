@@ -8,9 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <button class='size' type="'button" value="8">8x8</button>
-    <button class='size' type="'button" value="10">10x10</button>
-    <button class='size' type="'button" value="64">64x64</button>
+    <h1>Etch-A-Sketch</h1>
+    <div class="content">
+        <div class="options">
+            <div class="sizeslider">
+                <p><b>Grid Size:</b> <span class="sizedisplay"></span></p> 
+                <input type="range" min="2" max="100" value="8">  
+                <button class="apply" type="button">Apply!</button>
+            </div>
+            <div class="color">
+                <button type="button" id="red">Red!</button>
+                <button type="button" id="blue">Blue!</button>
+                <button type="button" id="rainbow">Rainbow!</button>
+            </div>
+        </div>
+    <div class='box'></div>
+    </div>
     <script src="scripts.js"></script>
 </body>
 

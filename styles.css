@@ -1,20 +1,59 @@
-.box {
-    display: inline-flex;
-    flex-direction: column;
-    border: thin solid black;
-    justify-content: center;
-}
-div.container {
+body {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
 }
 
-.square {
+.content {
     display: flex;
-    width: 5px;
-    border: solid thin black;
+    gap: 50px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sizeslider {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: lightskyblue;
+    padding: 10px;
+    border: thin solid black;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    padding: 10px;
+    border: thin solid black;
+}
+
+.apply {
+    flex: 0;
+    width: auto;
+    margin: 5px;
+}
+
+.box {
+    display: flex;
+    border: thin solid black;
+    width: 700px;
     aspect-ratio: 1/1;
 }
 
-.hovered {
-    background-color: blue;
+div.column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: thin solid black;
+}
+
+.square {
+    flex: 1;
+    border: solid thin black;
 }
