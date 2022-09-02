@@ -5,9 +5,14 @@ body {
     background-color: aqua;
 }
 
+h1 {
+    font-size: 48px;
+}
 .content {
     display: flex;
+    align-items: center;
     gap: 50px;
+    padding-bottom: 50px;
 }
 
 .options {
@@ -56,4 +61,8 @@ div.column {
 .square {
     flex: 1;
     border: solid thin black;
+}
+
+footer {
+    font-size: 24px;
 }
