@@ -53,6 +53,7 @@ function createSquare(size) { //create squares in the div columns
         for (let i=0; i<size; i++) {
             const square = document.createElement('div')
             square.classList.add('square')
+            square.style.backgroundColor = 'white'
             column.appendChild(square)
         }
     }
